@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/titulo_inicio" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtPacote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtHotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#1565C0"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnComoChegar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/como_chegar"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnEnviarMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar_mensagem"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

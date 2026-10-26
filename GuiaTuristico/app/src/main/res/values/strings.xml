@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Guia de Turismo</string>
+    <string name="titulo_inicio">Guia de Turismo</string>
+    <string name="descricao_inicio">Conheça lugares incríveis do Brasil e planeje sua próxima viagem!</string>
+
+    <string name="pacote">Pacote de viagem</string>
+    <string name="hotel">Hotel</string>
+    <string name="telefone">Telefone</string>
+    <string name="como_chegar">Como chegar</string>
+    <string name="enviar_mensagem">Enviar mensagem</string>
+    <string name="sem_email">Nenhum aplicativo de e-mail disponível.</string>
+    <string name="sem_mapa">Nenhum aplicativo de mapas disponível.</string>
+
+    <string name="pacote_padrao">Pacote de 3 dias, com passeios turísticos.</string>
+    <string name="hotel_padrao">Hotel parceiro no centro da cidade.</string>
+    <string name="telefone_padrao">+55 11 4000-0000</string>
+    <string name="assunto_email">Informações sobre pacote de viagem</string>
+    <string name="corpo_email">Olá! Gostaria de receber mais informações sobre esse destino.</string>
+
+    <string name="araraquara">Araraquara</string>
+    <string name="sao_paulo">São Paulo</string>
+    <string name="rio_de_janeiro">Rio de Janeiro</string>
+    <string name="salvador">Salvador</string>
+    <string name="curitiba">Curitiba</string>
+    <string name="florianopolis">Florianópolis</string>
+    <string name="foz_iguacu">Foz do Iguaçu</string>
+    <string name="gramado">Gramado</string>
+    <string name="brasilia">Brasília</string>
+    <string name="fernando_noronha">Fernando de Noronha</string>
+</resources>
